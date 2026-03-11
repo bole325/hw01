@@ -1,4 +1,3 @@
-# hw01
 hw01/
 ├── src/
 │   ├── __init__.py
@@ -51,36 +50,3 @@ def get_number_input(prompt):
             return float(input(prompt))
         except ValueError:
             print("错误：请输入有效的数字！")
-
-## 3. 创建 src/calculator.py
-
-```python
-"""
-计算器核心模块
-提供基本的算术运算功能
-"""
-
-class Calculator:
-    """计算器类，包含基本的数学运算"""
-    
-    @staticmethod
-    def add(a, b):
-        """加法运算"""
-        return a + b
-    
-    @staticmethod
-    def subtract(a, b):
-        """减法运算"""
-        return a - b
-    
-    @staticmethod
-    def multiply(a, b):
-        """乘法运算"""
-        return a * b
-    
-    @staticmethod
-    def divide(a, b):
-        """除法运算，处理除数为0的情况"""
-        if b == 0:
-            raise ValueError("除数不能为0")
-        return a / b

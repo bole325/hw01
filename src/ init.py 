@@ -1,5 +1,0 @@
-# 创建 src/__init__.py
-touch src/__init__.py
-
-# 创建 tests/__init__.py
-touch tests/__init__.py
